@@ -1,0 +1,6 @@
+applications:
+- name: hellogo
+  memory: 1G
+  health-check-type: process
+  buildpack: binary_buildpack
+  random-route: true
